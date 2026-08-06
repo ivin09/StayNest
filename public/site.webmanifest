@@ -1,6 +1,6 @@
 {
-  "name": "Booking.com",
-  "short_name": "Booking.com",
+  "name": "StayNest",
+  "short_name": "StayNest",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#113B95",
+  "theme_color": "#0E4F4F",
   "background_color": "#ffffff",
   "display": "browser",
-  "description": "Vacation Rentals, Homes, Experiences & Places - Booking.com"
+  "description": "Vacation Rentals, Homes, Experiences & Places - StayNest"
 }
