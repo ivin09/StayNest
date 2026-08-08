@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import PropertyViewCarousel from './property-view-carousel';
 import HotelMetaDetails from './hotel-meta-details';
 import HotelRoomPicker from './hotel-rooms-picker';

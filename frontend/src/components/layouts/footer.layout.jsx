@@ -1,5 +1,5 @@
 import { FOOTER_SECTION, SOCIAL_LINKS } from '@/config/app.config';
-import React from 'react';
+// import React from 'react';
 import Icon from '../ui/icon';
 import dayjs from 'dayjs';
 
@@ -26,9 +26,13 @@ const Footer = () => {
       </footer>
       <div className="bg-brand">
         <div className="flex flex-col flex-wrap items-center justify-center gap-4 p-4 mx-auto sm:flex-row sm:justify-between max-w-7xl">
-          <div className='flex items-center justify-center gap-4'>
+          <div className="flex items-center justify-center gap-4">
             {SOCIAL_LINKS.map((link, index) => (
-              <a href={link.href} key={index} className='text-slate-100 hover:text-slate-300 transition-colors'>
+              <a
+                href={link.href}
+                key={index}
+                className="text-slate-100 hover:text-slate-300 transition-colors"
+              >
                 <Icon icon={link.icon} size="18" />
               </a>
             ))}

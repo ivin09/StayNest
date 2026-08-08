@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import Home from './home';
-import Header from '@/components/layouts/header.layout';
-import Footer from '@/components/layouts/footer.layout';
+// import Header from '@/components/layouts/header.layout';
+// import Footer from '@/components/layouts/footer.layout';
 import SearchPage from './search';
 import HotelDetails from './hotel-details';
 import { SignInPage, SignUpPage } from './auth';
