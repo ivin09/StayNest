@@ -1,0 +1,18 @@
+package com.staynest.backend.dto;
+
+import com.staynest.backend.entity.enums.Gender;
+import com.staynest.backend.entity.enums.Role;
+import lombok.Data;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+@Data
+public class UserDto {
+    private Long id;
+    private String email;
+    private String name;
+    private Gender gender;
+    private LocalDate dateOfBirth;
+    private Set<Role> roles;
+}
